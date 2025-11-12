@@ -57,6 +57,10 @@ section {
   padding: 120px 0;
 }
 
+:root {
+  --white-color: #ffffff;
+}
+
 /* font-family: "Raleway", sans-serif; */
 
 /* #region header */
@@ -451,7 +455,6 @@ section {
 .footer-inner {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 .footer-left {
@@ -487,7 +490,6 @@ section {
 .footer-socials {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .social-title {
@@ -496,7 +498,7 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .social-list {
@@ -531,7 +533,7 @@ section {
 }
 
 :root {
-  --icon-color: #f4f4fd;
+  --white-color: #ffffff;
 }
 
 .footer .social-icon {
