@@ -324,10 +324,14 @@ section {
 }
 
 /* соціальні іконки */
-.social-list {
+
+.team .social-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
 }
 
 .social-item {
@@ -346,9 +350,9 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--ocean);
+.team .social-link:hover,
+.team .social-link:focus {
+  background-color: #404bbf;
 }
 
 .social-icon {
